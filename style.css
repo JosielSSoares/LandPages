@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1b1b3a, #602080);
+  overflow-x: hidden; /* Impede rolagem horizontal */
+  color: #e0e0e0; /* Cor neutra para o texto */
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: #ffcc00; /* Destaque em amarelo */
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px; /* Borda arredondada */
+  border: 2px solid #007bff; /* Azul usado no h2 */
+  background-color: #3a3a5a; /* Cor de fundo das caixas */
+  opacity: 0; /* Começa invisível */
+  transform: translateX(100%); /* Inicia fora da tela */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Sombra para destaque */
+  transition: transform 1s ease-out, opacity 1s ease-out; 
+}
+
+footer {
+  background-color: #2b2b4b;
+  color: #ffcc00;
+  padding: 20px;
+}
+
+footer a {
+  color: #ffcc00;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
