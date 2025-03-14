@@ -1,9 +1,7 @@
 body {
   background: radial-gradient(
     ellipse at center,
-    #0088e8 0%, 
-    #0088e8 60%,
-    #00e1e7 85%,
+    #00e1e7 0%,
     #00f5f5 100%
   );
   font-family: Arial, sans-serif;
@@ -28,7 +26,7 @@ section {
   margin-bottom: 20px;
   border-radius: 12px; /* Borda arredondada */
   border: 2px solid #0E7FF7; /* Azul usado no h2 */
-  background-color: #37A0E2; /* Cor de fundo das caixas */
+  background-color: #6A5ACD; /* Cor de fundo das caixas */
   opacity: 0; /* Começa invisível */
   transform: translateX(100%); /* Inicia fora da tela */
   box-shadow: 0px 4px 10px rgb(0, 0, 0, 0.5); /* Sombra para destaque */
